@@ -43,8 +43,6 @@ class App < Sinatra::Base
       @tot = @number1 / @number2
       "#{tot}"
     end
-      
-    end
   end
 
 end #ends Class app
