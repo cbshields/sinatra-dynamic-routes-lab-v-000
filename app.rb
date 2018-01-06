@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     #binding.pry
   text =  @num.times do
-      "#{@phrase}"
+      puts "#{@phrase}"
     end
     text
   end
