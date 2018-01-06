@@ -17,10 +17,10 @@ class App < Sinatra::Base
     @num = params[:number].to_i
     @phrase = params[:phrase]
     #binding.pry
-  @text =  @num.times do
+  text =  @num.times do
       "#{@phrase}"
     end
-    "#{@text}"
+    text
   end
 
 
