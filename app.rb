@@ -34,7 +34,7 @@ class App < Sinatra::Base
       @tot = @number1 + @number2
       "#{tot}"
     elsif @math == "subtract"
-      @tot = @number1 - @number2
+      @tot = @number2 - @number1
       "#{tot}"
     elsif @math == "multiply"
       @tot = @number1 * @number2
