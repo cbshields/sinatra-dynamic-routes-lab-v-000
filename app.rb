@@ -32,16 +32,16 @@ class App < Sinatra::Base
 
     if @math == "add"
       @tot = @number1 + @number2
-      "#{tot}"
+      "#{@tot}"
     elsif @math == "subtract"
       @tot = @number2 - @number1
-      "#{tot}"
+      "#{@tot}"
     elsif @math == "multiply"
       @tot = @number1 * @number2
-      "#{tot}"
+      "#{@tot}"
     else
       @tot = @number1 / @number2
-      "#{tot}"
+      "#{@tot}"
     end
   end
 
